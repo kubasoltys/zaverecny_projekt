@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PŘEVOD MĚN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="struktura">
+                <h1>PŘEVOD MĚN:</h1>
+                <div class="vstup">
+                    <input type="number" value="1" min="1" id="puvodniMena">
+                    <select class="zMeny" id="zMeny">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="sipka">▼</div>
+                <div class="vstup vstup2">
+                    <input type="number" class="prevedenaMena" id="prevedenaMena">
+                    <select class="doMeny" id="doMeny">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="vysledek" id="vysledek">1 USD = 23 CZK</div>
+            </div>
+        </section>
+        <div class="footer">
+            <p><img src="img/skola-logo.jpeg" alt="Školní logo" class="footer-logo"></p>
+            <p class="footer-text">&#169; 2024 - Jakub Šoltys - SŠPU Opava</p>
+        </div>
+    </main>
+    <div class="navod">
+        <h3>Návod k použití a co to vlastně je:</h3>
+        <p>Nástroj pro převod různých měn. Funguje pomocí API.<br>Zvolte měnu, ze které chtece převádět, určete její částku<br>a níže se vám
+         zobrazí převedená hodnota. Pokud chcete převádet<br>do jiné hodnoty než CZK, stačí si dole vybrat do jaké.</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
